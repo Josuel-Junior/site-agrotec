@@ -16,7 +16,7 @@ O site Agrotec é um site fictício criado para treinar o conhecimento de HTML C
 - HTML / CSS / JS
 
 # Clonar repositório
-https://github.com/Josuel-Junior/Site-Agrotec
+[https://github.com/Josuel-Junior/Site-Agrotec](https://github.com/Josuel-Junior/Site-Agrotec/tree/master)
 
 # Autor
 

@@ -3,10 +3,13 @@ https://josuel-junior.github.io/Site-Agrotec/
 
 # Sobre o projeto
 
-O site Agrotec é um site fictício criado para treinar o conhecimento de HTML, CSS e JAVASCRIPT.
+O site Agrotec é um site fictício criado para praticar o conhecimento de HTML, CSS e JAVASCRIPT.
 
 ## Layout web
 ![Web](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Agrotec/Layout%20web.PNG?raw=true)
+
+## Layout tablet 
+![Tablet](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Agrotec/Layout%20tablet.png?raw=true)
 
 ## Layout mobile
 ![Mobile](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Agrotec/Layout%20mobile.PNG?raw=true)
@@ -15,6 +18,8 @@ O site Agrotec é um site fictício criado para treinar o conhecimento de HTML, 
 # Tecnologias utilizadas
 
 - HTML / CSS / JS
+
+- Swiper API
 
 # Clonar repositório
 [https://github.com/Josuel-Junior/Site-Agrotec](https://github.com/Josuel-Junior/Site-Agrotec/tree/master)

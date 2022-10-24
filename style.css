@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@200&family=Roboto:wght@300;400&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 850;
+    font-family: 'Open Sans';
+
 }
 
 body {
     min-height: 100vh;
+
 }
 
 html {
@@ -57,10 +55,10 @@ header .menu-section nav ul {
 
 header .menu-section nav ul li a {
     padding: 10px;
+    height: 100%;
     font-size: 1.8rem;
     text-decoration: none;
-    color: #ffffff;
-
+    color: #fff;
     transition: all 250ms linear 0s;
 }
 
@@ -87,7 +85,7 @@ header .menu-section nav ul a:hover {
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: #ffffff;
+    color: #fff;
 }
 
 
@@ -111,7 +109,7 @@ section.container-about-company {
     line-height: 2.4rem;
     margin-left: -30px;
     background-color: rgba(63, 134, 0, 0.9);
-    color: #ffffff;
+    color: #fff;
     border-radius: 10px;
     padding: 20px;
 }
@@ -123,8 +121,10 @@ section.container-about-company {
     margin: 40px auto;
     padding: 70px;
     border-radius: 10px;
-    color: #ffffff;
+    color: #fff;
     background-color: #3f8600;
+
+
 }
 
 .text-about-company h3 {
@@ -140,9 +140,10 @@ section.container-about-company {
 }
 
 .text-about-company a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     font-size: 2rem;
+
 }
 
 
@@ -150,14 +151,14 @@ section.container-about-company {
 section.services {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
 }
 
 .services-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 40px;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto auto
 }
 
 .services-container h3 {
@@ -173,15 +174,17 @@ section.services {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color: #ffffff;
+    color: #fff;
     font-size: 1.8rem;
     line-height: 2.6rem;
     text-align: center;
+
 }
 
 .card a {
     text-decoration: none;
-    color: #ffffff;
+
+    color: #fff;
 }
 
 .card:nth-child(1) {
@@ -212,12 +215,12 @@ section.contact {
 
 .container-contact {
     margin: 30px auto;
-    width: 100%;
+    width: 95%;
     max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #ffffff;
+    color: #fff;
 }
 
 .brand-agrotec {
@@ -266,7 +269,7 @@ section.contact {
 .contacts a {
     font-size: 2.5rem;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     margin: 10px;
 }
 
@@ -282,13 +285,13 @@ footer.footer {
 }
 
 .container-footer {
-    width: 100%;
+    width: 95%;
     max-width: 1300px;
     margin: 50px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    color: #ffffff;
+    color: #fff;
 }
 
 /* address */
@@ -301,13 +304,13 @@ footer.footer {
     display: block;
     margin: auto;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     font-size: 3.5rem;
     margin-bottom: 20px;
 }
 
 .address p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* store */
@@ -325,31 +328,39 @@ footer.footer {
 }
 
 /* social network */
-.social-network a+a {
-    margin-left: 30px;
+.social-network {
+    display: flex;
+    justify-content: center;
 }
 
-/* rights-reserved */
-.rights-reserved {
-    border-top: #ffffff solid 1px;
-    color: #ffffff;
+.social-network a {
+    padding: 10px;
+}
+
+/* all rights reserved */
+.all-rights-reserved {
+    border-top: #fff solid 1px;
+    color: #fff;
     width: 100%;
     font-size: 2rem;
     padding: 15px;
     text-align: center;
 }
-
-.rights-reserved a {
+.all-rights-reserved strong{
+    font-weight: 400;
+    text-decoration: none;
+}
+.all-rights-reserved a {
     text-decoration: none;
     color: #f8e38d;
 }
 
 
-.rights-reserved a:hover {
+.all-rights-reserved a:hover {
     color: white;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
 
     html {
         font-size: 58.5%;
@@ -376,29 +387,28 @@ footer.footer {
         width: 90%;
     }
 
+    .services-container {
+        grid-template-columns: auto auto
+    }
+
     .container-contact {
-        flex-direction: column;
         width: 90%;
     }
 
-    .container-footer {
+    .social-network {
         flex-direction: column;
-        align-items: center;
     }
 
-    .store-main {
-        margin: 20px;
+    .container-footer {
+        width: 90%;
     }
+
 }
 
 @media (max-width: 768px) {
 
-    html {
-        font-size: 55%;
-    }
-
     .swiper-slide img {
-        min-height: 320px;
+        height: 50vh;
     }
 
     nav {
@@ -415,7 +425,7 @@ footer.footer {
     .one,
     .two,
     .three {
-        background-color: #ffffff;
+        background-color: #fff;
         height: 5px;
         width: 100%;
         margin: 6px auto;
@@ -471,6 +481,11 @@ footer.footer {
         text-transform: uppercase;
     }
 
+    .services-container {
+        grid-template-columns: auto
+    }
+
+
     .about-company p {
         display: none;
     }
@@ -490,6 +505,33 @@ footer.footer {
 
     .brand-agrotec p {
         font-size: 2.2rem;
+    }
+
+    .container-contact {
+        flex-direction: column;
+    }
+
+    .address p {
+        font-size: 2.7rem;
+    }
+
+    .store-main {
+        margin: 20px auto;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-footer p,
+    h3 {
+        font-size: 2rem;
+    }
+
+    .social-network {
+        flex-direction: row;
     }
 
     .rights-reserved strong {

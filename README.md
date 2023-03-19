@@ -3,7 +3,7 @@ https://josuel-junior.github.io/Site-Agrotec/
 
 # Sobre o projeto
 
-O site Agrotec é um site fictício criado para praticar o conhecimento de HTML, CSS e JAVASCRIPT.
+O site Agrotec é um site fictício criado com HTML, CSS e JAVASCRIPT.
 
 ## Layout web
 ![Web](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Agrotec/Layout%20web.PNG)

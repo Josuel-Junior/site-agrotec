@@ -148,17 +148,16 @@ section.container-about-company {
 
 
 /* service */
-section.services {
+.services {
     display: block;
     margin: auto;
     width: 95%;
-    max-width: 1200px;
 }
 
 .services-container {
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: auto auto auto auto
+    grid-template-columns: auto auto auto auto;
 }
 
 .services-container h3 {
@@ -168,6 +167,7 @@ section.services {
 
 .card {
     height: 400px;
+    margin: auto;
     border-radius: 10px;
     padding: 20px;
     display: flex;
@@ -178,7 +178,6 @@ section.services {
     font-size: 1.8rem;
     line-height: 2.6rem;
     text-align: center;
-
 }
 
 .card a {
@@ -400,7 +399,7 @@ footer.footer {
     }
 
     .services-container {
-        grid-template-columns: auto auto
+        grid-template-columns: auto auto;
     }
 
     .container-contact {
@@ -494,7 +493,7 @@ footer.footer {
     }
 
     .services-container {
-        grid-template-columns: auto
+        grid-template-columns: auto;
     }
 
 

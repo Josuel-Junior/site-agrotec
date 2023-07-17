@@ -1,5 +1,5 @@
 # Site Agrotec
-https://josuel-junior.github.io/Site-Agrotec/
+https://josuel-junior.github.io/site-agrotec/
 
 # Sobre o projeto
 
